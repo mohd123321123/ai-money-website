@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn how to make money online using AI tools. Explore tutorials, reviews, and resources to boost your income with artificial intelligence.">
+  <meta name="keywords" content="make money with AI, AI tools, ChatGPT, Jasper AI, freelancing with AI, AI for content creation, AI for freelancers">
+  <meta name="author" content="Your Name">
+  <link rel="icon" type="image/x-icon" href="images/neeqolah-creative-works-n_Gd5nnamnw-unsplash.ico">
+  <title>Blog - How to Make Money with AI Tools</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>How to Make Money with AI Tools</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Blog Posts Section -->
+    <section class="blog-posts">
+      <h2>Blog Posts</h2>
+      <div class="post-list">
+        <!-- Post 1 -->
+        <article id="ai-tools">
+          <h3>10 AI Tools to Make Money Online</h3>
+          <p>Discover the best AI tools for freelancing, content creation, and more. These tools can help you automate tasks, generate income, and grow your business.</p>
+          <div class="full-content" id="ai-tools-content">
+            <p>Here’s more detailed information about the 10 AI tools:</p>
+            <ul>
+              <li><strong>Jasper AI</strong> - For content creation.</li>
+              <li><strong>ChatGPT</strong> - For writing and automation.</li>
+              <li><strong>Canva</strong> - For graphic design.</li>
+              <li><strong>MidJourney</strong> - For AI art generation.</li>
+              <li><strong>Descript</strong> - For video editing.</li>
+              <li><strong>Grammarly</strong> - For writing and grammar checks.</li>
+              <li><strong>Surfer SEO</strong> - For optimizing content for search engines.</li>
+              <li><strong>Copy.ai</strong> - For generating marketing copy.</li>
+              <li><strong>Otter.ai</strong> - For transcription and note-taking.</li>
+              <li><strong>Synthesia</strong> - For AI video creation.</li>
+            </ul>
+          </div>
+          <button class="read-more" onclick="toggleContent('ai-tools-content')">Read More</button>
+        </article>
+
+        <!-- Post 2 -->
+        <article id="chatgpt-freelancing">
+          <h3>How to Use ChatGPT for Freelancing</h3>
+          <p>Learn how to leverage ChatGPT to boost your freelancing career. From writing proposals to generating content, ChatGPT can save you time and increase your earnings.</p>
+          <div class="full-content" id="chatgpt-freelancing-content">
+            <p>Here’s how ChatGPT can help freelancers:</p>
+            <ul>
+              <li><strong>Writing Proposals</strong> - Generate professional and persuasive proposals for clients.</li>
+              <li><strong>Content Creation</strong> - Write blog posts, articles, and social media content quickly.</li>
+              <li><strong>Customer Support</strong> - Automate responses to common client questions.</li>
+              <li><strong>Idea Generation</strong> - Brainstorm ideas for projects or marketing campaigns.</li>
+              <li><strong>Email Writing</strong> - Draft professional emails to clients or collaborators.</li>
+            </ul>
+          </div>
+          <button class="read-more" onclick="toggleContent('chatgpt-freelancing-content')">Read More</button>
+        </article>
+
+        <!-- Post 3 -->
+        <article id="ai-content-creation">
+          <h3>Best AI Tools for Content Creation</h3>
+          <p>Find out which AI tools can help you create content faster and better. Whether you're a blogger, YouTuber, or social media manager, these tools are a game-changer.</p>
+          <div class="full-content" id="ai-content-creation-content">
+            <p>Here are the top AI tools for content creation:</p>
+            <ul>
+              <li><strong>Jasper AI</strong> - For writing blog posts, ads, and more.</li>
+              <li><strong>Canva</strong> - For designing graphics and social media posts.</li>
+              <li><strong>Descript</strong> - For editing videos and podcasts.</li>
+              <li><strong>MidJourney</strong> - For creating unique AI-generated art.</li>
+              <li><strong>Grammarly</strong> - For improving writing quality.</li>
+              <li><strong>ChatGPT</strong> - For generating ideas and content.</li>
+            </ul>
+          </div>
+          <button class="read-more" onclick="toggleContent('ai-content-creation-content')">Read More</button>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 How to Make Money with AI Tools</p>
+  </footer>
+
+  <script>
+    function toggleContent(id) {
+      const content = document.getElementById(id);
+      const button = content.previousElementSibling; // Get the "Read More" button
+
+      if (content.style.display === "none" || content.style.display === "") {
+        content.style.display = "block"; // Show content
+        button.textContent = "Read Less"; // Change button text
+      } else {
+        content.style.display = "none"; // Hide content
+        button.textContent = "Read More"; // Change button text
+      }
+    }
+  </script>
+</body>
+</html>
